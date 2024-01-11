@@ -23,13 +23,13 @@
 body{
     background-color: #000;
 }
-a{
+.mailto{
     text-align: center;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-a:visited{
+.mailto:visited{
     text-align: center;
     top: 70%;
     left: 50%;

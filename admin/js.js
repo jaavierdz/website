@@ -6,7 +6,4 @@ var submit = document.getElementById('submit');
 function clicked(){
   if (username == "admin" && password == "admin"){
     window.location.replace("http://ibaillanos.tv/video.mp4");
-  }
-  else{
-    alert("Invalid credentials");
-}
+  } else alert("Invalid credentials");

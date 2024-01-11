@@ -14,9 +14,9 @@
     font-size: 40px;
     color: white;
     text-align: center;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-60%,-50%);
     position: absolute;   
 }
 

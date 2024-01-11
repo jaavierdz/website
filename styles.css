@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.text{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono'
+  font-size: 40px;
+}
+body{
+  background-color: #000;
+}

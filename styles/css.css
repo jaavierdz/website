@@ -19,19 +19,21 @@
     transform: translate(-50%,-50%);
     position: absolute;   
 }
-
-body{
-    background-color: #000;
-}
 .mailto{
+    color: white;
     text-align: center;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .mailto:visited{
+    color: white;
     text-align: center;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+body{
+    background-color: #000;
 }

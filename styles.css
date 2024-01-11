@@ -13,3 +13,23 @@
 body{
   background-color: #000;
 }
+.goback{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.goback:visited{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}

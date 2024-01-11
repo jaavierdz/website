@@ -24,6 +24,13 @@ body{
     background-color: #000;
 }
 a{
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a:visited{
+    text-align: center;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);

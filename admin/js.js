@@ -4,5 +4,9 @@ var passwd = document.getElementById('password');
 var submit = document.getElementById('submit');
 
 function clicked(){
-  window.location.replace("http://iabillanos.tv/video.mp4");
+  if (username == "admin" && password == "admin"){
+    window.location.replace("http://ibaillanos.tv/video.mp4");
+  }
+  else{
+    alert("Invalid credentials");
 }

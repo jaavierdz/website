@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.title{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.twitter{
+  font-family: 20px;
+  color: white;
+}
+body{
+  color: #000;
+}

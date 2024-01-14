@@ -34,13 +34,18 @@ body{
 }
 #name{
     color: white;
-    font-size: 10px;
+    font-size: 25px;
     font-family: 'Roboto Mono', monospace;
 
 
 }
 #subname{
     font-family: 'Roboto Mono', monospace;
-    font-size: 7px;
+    font-size: 15px;
+    color: white;
+}
+#subname a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
     color: white;
 }

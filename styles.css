@@ -33,3 +33,24 @@ body{
   transform: translate(-40%,-40%);
   position: absolute;
 }
+.github{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.mailto{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}

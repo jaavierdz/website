@@ -13,26 +13,6 @@
 body{
   background-color: #000;
 }
-.goback{
-  color: white;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-  top: 40%;
-  left: 40%;
-  transform: translate(-40%,-40%);
-  position: absolute;
-}
-.goback:visited{
-  color: white;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-  top: 40%;
-  left: 40%;
-  transform: translate(-40%,-40%);
-  position: absolute;
-}
 .github{
     color: white;
     text-align: center;

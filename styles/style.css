@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 .titulo{
   color: white;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  font-size: 40px;
+  font-size: 40px;  
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -26,9 +27,9 @@ body{
 .github{
     color: white;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    top: 60%;
+    font-family: 'Lato', monospace;
+    font-size: 14px;
+    top: 62%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
@@ -37,29 +38,8 @@ body{
     color: white;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-
-}
-.github:visited{
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-}
-.mailto:visited{
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    top: 65%;
+    font-size: 14px;
+    top: 59%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;

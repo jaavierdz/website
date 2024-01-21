@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.titulo{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+body{
+  background-color: #000;
+}
+.txt{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.github{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.mailto{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}

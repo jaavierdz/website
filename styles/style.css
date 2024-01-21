@@ -45,3 +45,14 @@ body{
     position: absolute;
 
 }
+.socials{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+}

@@ -23,7 +23,7 @@ body{
   transform: translate(-50%,-50%);
   position: absolute;
 }
-.github{
+.github, github:visited{
     color: white;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -33,7 +33,7 @@ body{
     transform: translate(-50%,-50%);
     position: absolute;
 }
-.mailto{
+.mailto, mailto:visited{
     color: white;
     text-align: center;
     font-family: 'Roboto Mono', monospace;

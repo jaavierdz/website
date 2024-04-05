@@ -19,6 +19,26 @@ html {
   z-index: 1;
   color: #fff; 
 }
+#links{
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+}
+#footer{
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+}
 #particles-js {
   position: fixed;
   width: 100%;

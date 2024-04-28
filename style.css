@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+body{
+    background-color: #303030;
+}
+.titulo{
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+.github{
+    color: white !important;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+.github:visited{
+    color: white !important;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+.blog{
+    color: white !important;
+    top: 64%;
+    left: 56%;
+    transform: translate(-56%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+.blog:visited{
+    color: white !important;
+    top: 64%;
+    left: 56%;
+    transform: translate(-56%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+.twitter{
+    color: white !important;
+    top: 64%;
+    left: 44%;
+    transform: translate(-44%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+.twitter:visited{
+    color: white !important;
+    top: 64%;
+    left: 44%;
+    transform: translate(-44%, -64%);
+    position: absolute;
+    font-size: 22px;
+
+}
+#avatar{
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+    position: absolute;
+}
+.subtitulo{
+    color: white;
+    font-size: 30px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}

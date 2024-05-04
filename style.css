@@ -80,7 +80,7 @@ body{
 
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
-    top: 34%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -34%);
     position: absolute;

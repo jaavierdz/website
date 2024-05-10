@@ -1,6 +1,6 @@
 {
   "test": "test",
-  "update": "no",
+  "update": "yes",
   "code": 1234,
   "payload": "yes"
 }

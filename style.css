@@ -1,96 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
-
-body{
-    background-color: #303030;
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
-.titulo{
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    font-family: "Jersey 25", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-}
-.github{
-    color: white !important;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -64%);
-    position: absolute;
-    font-size: 22px;
 
-}
-.github:visited{
-    color: white !important;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -64%);
-    position: absolute;
-    font-size: 22px;
-
-}
-.blog{
-    color: white !important;
-    top: 64%;
-    left: 56%;
-    transform: translate(-56%, -64%);
-    position: absolute;
-    font-size: 22px;
-
-}
-.blog:visited{
-    color: white !important;
-    top: 64%;
-    left: 56%;
-    transform: translate(-56%, -64%);
-    position: absolute;
-    font-size: 22px;
-
-}
-.twitter{
-    color: white !important;
-    top: 64%;
-    left: 44%;
-    transform: translate(-44%, -64%);
-    position: absolute;
-    font-size: 22px;
-
-}
-.twitter:visited{
-    color: white !important;
-    top: 64%;
-    left: 44%;
-    transform: translate(-44%, -64%);
-    position: absolute;
-    font-size: 22px;
-
-}
-#avatar{
-    width: 150px;
-    height: 150px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
+/* Estilo para la imagen de avatar */
+.avatar {
+    width: 150px; /* Ajusta este valor para cambiar el tamaño del avatar */
+    height: 150px; /* Ajusta este valor para cambiar el tamaño del avatar */
     border-radius: 50%;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -34%);
-    position: absolute;
+    object-fit: cover;
+    margin-top: 20px;
 }
-.subtitulo{
+
+/* Estilo para el nombre */
+.nombre {
+    font-size: 2em; /* Ajusta este valor para cambiar el tamaño del texto */
+    font-weight: bold;
+    text-align: center;
+    color: #323842;
+    margin-top: 10px;
+}
+
+/* Estilo para el arroba */
+.arroba {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-top: -10px; /* Ajusta este valor para moverlo más cerca del nombre */
+}
+
+/* Estilo para las redes sociales */
+.social {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
     color: white;
-    font-size: 30px;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -58%);
-    position: absolute;
-    font-family: 'Lato', sans-serif;
+    background-color: #323842;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social:hover {
+    background-color: #444;
+}
+
+/* Estilo para la biografía */
+.bio {
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+}
+
+.bio .strong {
+    font-weight: bold;
+    color: #ff6347; /* Color llamativo para "Javierdz" */
+}
+
+/* Asegura que el contenido esté centrado */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
 }
